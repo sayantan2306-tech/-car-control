@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+
+  color: #e8edf5;
+  background: #090d14;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-main: #090d14;
+  --bg-panel: #111824;
+  --bg-card: #151f2d;
+  --bg-hover: #1c2939;
+
+  --text-primary: #e8edf5;
+  --text-secondary: #8794a7;
+
+  --accent: #21c8a5;
+  --accent-blue: #388bff;
+  --danger: #ff5364;
+  --warning: #ffbd4a;
+
+  --border: #253244;
+
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  text-align: left;
+}
+
+::selection {
+  background: var(--accent);
+  color: #07110f;
+}
